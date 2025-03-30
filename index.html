@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="game.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>
-        Tic-Tac-Toe
-    </h1>
+    <h1>Tic-Tac-Toe</h1>
     <div id="board">
-        <button class="cell" cell-index="1"></button>
-        <button class="cell" cell-index="2"></button>
-        <button class="cell" cell-index="3"></button>
-        <button class="cell" cell-index="4"></button>
-        <button class="cell" cell-index="5"></button>
-        <button class="cell" cell-index="6"></button>
-        <button class="cell" cell-index="7"></button>
-        <button class="cell" cell-index="8"></button>
-        <button class="cell" cell-index="9"></button>
-
+        <button class="cell" id="cell0"></button>
+        <button class="cell" id="cell1"></button>
+        <button class="cell" id="cell2"></button>
+        <button class="cell" id="cell3"></button>
+        <button class="cell" id="cell4"></button>
+        <button class="cell" id="cell5"></button>
+        <button class="cell" id="cell6"></button>
+        <button class="cell" id="cell7"></button>
+        <button class="cell" id="cell8"></button>
     </div>
+    <button id="restartButton" class="center" onclick="restartFunction()">Restart</button>
+    <!-- <div class="popup">Winner!</div> -->
 </body>
 </html>
