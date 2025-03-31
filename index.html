@@ -10,17 +10,19 @@
 <body>
     <h1>Tic-Tac-Toe</h1>
     <div id="board">
-        <button class="cell" id="cell0"></button>
-        <button class="cell" id="cell1"></button>
-        <button class="cell" id="cell2"></button>
-        <button class="cell" id="cell3"></button>
-        <button class="cell" id="cell4"></button>
-        <button class="cell" id="cell5"></button>
-        <button class="cell" id="cell6"></button>
-        <button class="cell" id="cell7"></button>
-        <button class="cell" id="cell8"></button>
+        <button class="cell" id="0" onclick="markButton('0')"></button>
+        <button class="cell" id="1" onclick="markButton('1')"></button>
+        <button class="cell" id="2" onclick="markButton('2')"></button>
+        <button class="cell" id="3" onclick="markButton('3')"></button>
+        <button class="cell" id="4" onclick="markButton('4')"></button>
+        <button class="cell" id="5" onclick="markButton('5')"></button>
+        <button class="cell" id="6" onclick="markButton('6')"></button>
+        <button class="cell" id="7" onclick="markButton('7')"></button>
+        <button class="cell" id="8" onclick="markButton('8')"></button>
     </div>
     <button id="restartButton" class="center" onclick="restartFunction()">Restart</button>
-    <!-- <div class="popup">Winner!</div> -->
+    <h2 class="messageBar">
+        
+    </h2>
 </body>
 </html>

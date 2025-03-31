@@ -13,6 +13,13 @@ h1 {
     grid-gap: 10px;
 }
 
+.cell {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    width: 130px;
+    height: 130px;
+}
+
 #restartButton {
     width: 400px;
     height: 40px;
