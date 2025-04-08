@@ -62,6 +62,9 @@ function winChecker(board){
 }
 
 // restartFunction()
+    //refresh page
+
+
 
 
 // //check if current player has winning combination
