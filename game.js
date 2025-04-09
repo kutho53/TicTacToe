@@ -61,8 +61,9 @@ function winChecker(board){
     return false;
 }
 
-// restartFunction()
-    //refresh page
+function restartFunction(){
+
+}
 
 
 
