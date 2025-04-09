@@ -50,7 +50,7 @@ function markButton(cellPosition) {
         alert("Cat's game! Start over to play again.")
     }
 }
-// check if winning combo
+// check if winning combination
 //iterates through each subArray of the winningCombinations array, labeling each one a 'combo'
 //for each combo, checks if all cells are present in the selected board, if yes, returns a boolean 'true'
 function winChecker(board){
