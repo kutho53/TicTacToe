@@ -61,11 +61,19 @@ function winChecker(board){
     return false;
 }
 
-function restartFunction(){
+function restartFunction() {
+    // Clear the board cells
+    for (let i = 0; i < cell.length; i++) {
+        cell[i].innerHTML = '';
+    }
 
+    // Reset player boards
+    xBoard.length = 0;
+    oBoard.length = 0;
+
+    // Reset current player to 'X'
+    currentPlayer = players[0];
 }
-
-
 
 
 // //check if current player has winning combination
